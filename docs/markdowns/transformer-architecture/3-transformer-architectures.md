@@ -11,13 +11,13 @@ Source:
 
 #### Encoder Models
 
-- At each stage, the attention layers can access ==all== the words in the initial sentence.
-- These models are often characterized as having ==bi-directional attention==, and are often called ==auto-encoding== models.
-- Pretrained by ==masking== random words in a given sentence and tasking the model with finding or reconstructing the initial sentence.
+- At each stage, the attention layers can access **all** the words in the initial sentence.
+- These models are often characterized as having **bi-directional attention**, and are often called **auto-encoding** models.
+- Pretrained by **masking** random words in a given sentence and tasking the model with finding or reconstructing the initial sentence.
 
 ##### Use cases of encoder models:
 
-Encoder models used for tasks requiring an ==understanding of the full sentence==, such as:
+Encoder models used for tasks requiring an **understanding of the full sentence**, such as:
 
 - sentence classification
 - named entity recognition (and more generally word classification)
@@ -31,10 +31,10 @@ Encoder models used for tasks requiring an ==understanding of the full sentence=
 
 #### Decoder models
 
-- At each stage, ==for a given word== the attention layers can only access the words positioned ==before== it in the sentence.
-- They are often called ==auto-regressive== models.
-- Pretrained by ==predicting== the ==next== word in the sentence.
-- Used for ==text generation==
+- At each stage, **for a given word** the attention layers can only access the words positioned **before** it in the sentence.
+- They are often called **auto-regressive** models.
+- Pretrained by **predicting** the **next** word in the sentence.
+- Used for **text generation**
 
 ###### Representatives of this family of models include:
 
@@ -45,7 +45,7 @@ Encoder models used for tasks requiring an ==understanding of the full sentence=
 
 ### Modern Large Language Models (LLMs)
 
-Most modern Large Language Models (LLMs) use the ==decoder-only== architecture.
+Most modern Large Language Models (LLMs) use the **decoder-only** architecture.
 
 Modern LLMs are typically trained in two phases:
 
@@ -71,7 +71,7 @@ Modern LLMs are typically trained in two phases:
 
 ##### Use cases of Sequence-to-sequence (encoder-decoder) models:
 
-Sequence-to-sequence models used for ==generating== new sentences ==depending on a given input==, such as:
+Sequence-to-sequence models used for **generating** new sentences **depending on a given input**, such as:
 
 - Summarization
 - Translation
@@ -100,9 +100,9 @@ Sequence-to-sequence models excel at tasks that require transforming one form of
 
 The answers to these questions will guide you toward the right architecture:
 
-1. What kind of ==understanding== does your task need? (Bidirectional or unidirectional)
-2. Are you ==generating== new text or ==analyzing== existing text?
-3. Do you need to ==transform== one sequence into another?
+1. What kind of **understanding** does your task need? (Bidirectional or unidirectional)
+2. Are you **generating** new text or **analyzing** existing text?
+3. Do you need to **transform** one sequence into another?
 
 | **Task**                               | **Suggested Architecture** | **Examples**  |
 |----------------------------------------|:--------------------------:|:-------------:|
