@@ -28,14 +28,13 @@ theme:
     logo: fontawesome/solid/book-open
 
   palette:
-
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -46,13 +45,11 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-
 plugins:
   - tags
   - search
   - privacy
   - meta
-
 
 validation:
   omitted_files: warn
@@ -62,16 +59,18 @@ validation:
 
 extra:
   generator: false
-  homepage: https://1pawn0.github.io/
+
+extra_javascript:
+  - javascripts/extra.js
+
+extra_css:
+  - stylesheets/extra.css
 
 strict: true
 
 draft_docs: |
-  drafts/               # A "drafts" directory anywhere.
-  _unpublished.md       # A md file ending in _unpublished.md
+  drafts/       
+  _unpublished.md
   markdowns/drafts/
   docs/markdowns/drafts/
   _draft.md
-  
-   
-
