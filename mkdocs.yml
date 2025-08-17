@@ -12,12 +12,14 @@ theme:
     - search.suggest
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
     - navigation.expand
     - navigation.path
     - navigation.indexes
     - navigation.top
+    - navigation.footer
     - toc.follow
 
   font:
