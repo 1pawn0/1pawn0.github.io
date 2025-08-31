@@ -23,8 +23,8 @@ theme:
     - toc.follow
 
   font:
-    text: Red Hat Text
-    code: Red Hat Mono
+    text: Atkinson Hyperlegible Next
+    code: Atkinson Hyperlegible Mono
 
   icon:
     logo: fontawesome/solid/book-open
