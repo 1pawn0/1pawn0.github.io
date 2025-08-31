@@ -114,3 +114,5 @@ for i in range(1, pl_items_count + 1, BATCH_SIZE):
 with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
     executor.map(download_playlist_items_in_range, download_ranges)
 ```
+
+[This Notebook in GitHub](https://github.com/1pawn0/YTMusic-Concurrent-Playlist-Downloader-via-yt-dlp/blob/main/YTMusic_Concurrent_Playlist_Downloader_via_yt_dlp.ipynb)
