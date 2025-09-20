@@ -1,10 +1,5 @@
 # Connect to a GitHub Repository and push changes from a Google Colab Notebook
 
-```py
-!git config --global user.email "your_github_email"
-!git config --global user.name "your_github_username"
-```
-
 You must set your GitHub token as a secret in your google colab notebook.
 
 ```py
