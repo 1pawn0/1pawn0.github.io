@@ -39,7 +39,7 @@ The sigmoid function transforms this unbounded linear output into a valid probab
 
 ## Extending to Multiple Features
 
-For multiple features: **x = [x₁, x₂, ..., xₙ]**
+For multiple features: **x = \[x₁, x₂, ..., xₙ\]**
 
 **Logistic Regression**: ŷ = σ(w₁x₁ + w₂x₂ + ... + wₙxₙ + b) = 1 / (1 + e^(-w^T x - b))
 

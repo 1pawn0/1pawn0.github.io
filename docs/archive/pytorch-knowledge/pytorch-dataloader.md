@@ -16,7 +16,7 @@ tags:
 
 Source: [`torch.utils.data` module documentation](https://docs.pytorch.org/docs/main/data.html#module-torch.utils.data)
 
-Consider a Python class that is going to be used as a PyTorch [Dataset](https://docs.pytorch.org/docs/main/data.html#torch.utils.data.Dataset) object. The methods [` __init__()`](https://docs.python.org/3/reference/datamodel.html#object.__init__), [`__getitem__()`](https://docs.python.org/3/reference/datamodel.html#object.__getitem__), [`__len__()`](https://docs.python.org/3/reference/datamodel.html#object.__len__), and optionally [`__iter__()`](https://docs.python.org/3/reference/datamodel.html#object.__iter__) must have been already implemented in that class. [[Source](https://docs.pytorch.org/tutorials/beginner/basics/data_tutorial.html#creating-a-custom-dataset-for-your-files)]
+Consider a Python class that is going to be used as a PyTorch [Dataset](https://docs.pytorch.org/docs/main/data.html#torch.utils.data.Dataset) object. The methods [` __init__()`](https://docs.python.org/3/reference/datamodel.html#object.__init__), [`__getitem__()`](https://docs.python.org/3/reference/datamodel.html#object.__getitem__), [`__len__()`](https://docs.python.org/3/reference/datamodel.html#object.__len__), and optionally [`__iter__()`](https://docs.python.org/3/reference/datamodel.html#object.__iter__) must have been already implemented in that class. [Source](https://docs.pytorch.org/tutorials/beginner/basics/data_tutorial.html#creating-a-custom-dataset-for-your-files)
 
 [`collate_fn`](https://docs.pytorch.org/docs/main/data.html#working-with-collate-fn)
 [`torch.utils.data.default_collate`](https://docs.pytorch.org/docs/main/data.html#torch.utils.data.default_collate)
