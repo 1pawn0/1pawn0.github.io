@@ -2,3 +2,4 @@ site/
 .cache/
 .idea/
 .venv/
+.github/dependabot.yml
