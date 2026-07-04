@@ -19,7 +19,6 @@ theme:
     - navigation.path
     - navigation.indexes
     - navigation.top
-    - navigation.footer
     - toc.follow
 
   font:
@@ -52,6 +51,9 @@ plugins:
   - search
   - privacy
   - meta
+  - optimize
+  - privacy
+
   - blog:
       enabled: false
       draft: false
@@ -76,7 +78,13 @@ strict: true
 
 draft_docs: |
   drafts/
-  _unpublished.md
+  draft/
   markdowns/drafts/
   docs/markdowns/drafts/
-  _draft.md
+  *draft/
+  *drafts/
+  *_draft.md
+  *-draft.md
+  *draft.md
+  *unpublished.md
+
