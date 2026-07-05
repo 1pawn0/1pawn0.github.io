@@ -1,6 +1,6 @@
 ---
 title: Home Page
-icon: lucide/house
+icon: lucide/square
 draft: true
 ---
 # Blank Page

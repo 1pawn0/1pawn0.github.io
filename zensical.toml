@@ -275,8 +275,8 @@ logo = "lucide/notebook-tabs"
 # a monospaced font used in code blocks.
 # ----------------------------------------------------------------------------
 [project.theme.font]
-text = "Reddit Sans Condensed"
-code = "Reddit Mono"
+text = "Iosevka Charon"
+code = "Iosevka Charon Mono"
 
 # ----------------------------------------------------------------------------
 # In the "palette" subsection you can configure options for the color scheme.
@@ -366,7 +366,6 @@ custom_checkbox = true
 [project.markdown_extensions.zensical.extensions.glightbox]
 [project.markdown_extensions.zensical.extensions.macros]
 module_name = "macros"
-
 
 
 [project.validation]
