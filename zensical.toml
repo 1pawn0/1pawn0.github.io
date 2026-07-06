@@ -367,7 +367,7 @@ custom_checkbox = true
 [project.markdown_extensions.zensical.extensions.macros]
 module_name = "macros"
 [project.plugins.offline]
-enabled = true
+enabled = false
 
 
 [project.validation]
