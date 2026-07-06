@@ -9,7 +9,6 @@ tags:
     - GNNs
     - Graphs
     - Graph theory
-    - Graph types
 draft: false
 ---
 
