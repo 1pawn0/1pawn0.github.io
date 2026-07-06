@@ -1,7 +1,7 @@
 ---
 title: Message Passing
 tags:
-    - GNN Use Cases
+    - Message Passing
     - Graph-based learning
     - Graph Neural Networks
     - Graph Neural Network
