@@ -65,6 +65,11 @@ repo_name = "GitHub Account"
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
 
+extra_javascript = [
+  "javascripts/mathjax.js",
+  "https://unpkg.com/mathjax/tex-mml-chtml.js",
+]
+
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
@@ -366,9 +371,11 @@ custom_checkbox = true
 [project.markdown_extensions.zensical.extensions.glightbox]
 [project.markdown_extensions.zensical.extensions.macros]
 module_name = "macros"
+[project.markdown_extensions.pymdownx.blocks.caption]
+
+
 [project.plugins.offline]
 enabled = false
-
 
 [project.validation]
 invalid_links = true
